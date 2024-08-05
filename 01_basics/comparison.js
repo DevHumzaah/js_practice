@@ -23,3 +23,10 @@
 //        Arrays  =>  object
 //        Function  =>  function
 //        Object  =>  object
+
+
+
+
+//memory ==> stack(primitive)--call by value and heap(non-primitive)-- call by refrence
+//stack ma copy e milta hai
+//heap mai jo chnges krty orignal ma e krty hein
