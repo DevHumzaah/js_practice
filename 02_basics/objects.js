@@ -11,6 +11,6 @@ console.log(courseInstructor, );   //destructring
 // {
 //     name: "Ali",
 //     course: "English",
-
+  
 // }
 
