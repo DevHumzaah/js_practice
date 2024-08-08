@@ -45,4 +45,50 @@ console.log(multiplyBy5(5));
 console.log(multiplyBy5.power);
 
 
+function createUser (username , score){
+
+     this.username=username;
+     this.score=score;
+}
+createUser.prototype.increment= function(){
+
+     this.score++
+}
+
+ createUser.prototype.printMe= function(){
+
+     console.log(`score is  ${this.score}`);
+     
+ }
+// const coffee= createUser("coffee" , 12)
+// const pizza= createUser("pizza" , 22)
+
+// coffee.printMe()
+
+
+
+
+
+class User1 {
+
+     constructor(username, email, password){
+          this.password=password;
+          this.username=username;
+          this.email=email;
+     }
+
+     encryptPassword(){
+          return `${this.password}abc`
+     }
+
+     changeUsername(){
+          return `${this.username.toUpperCase()}`
+     }
+
+}
+
+const chai = new User1("chai", "ali@gmail.com", "123")
+
+console.log(chai.encryptPassword());
+console.log(chai.changeUsername());
 
